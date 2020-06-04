@@ -7,6 +7,10 @@
     padding: 10px 10px;
 }
 
+.top-nav a {
+    color: #000;
+}
+
 .top-nav a:hover {
     text-decoration: none;
 }

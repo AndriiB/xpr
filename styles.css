@@ -1,11 +1,15 @@
 
 body {
-  /* background-color: #F3F0EC; */
+  background-color: #F3F0EC; 
   box-sizing: border-box;
 }
 
 .container-fluid{
     padding: 0 30px;
+}
+
+.top-nav a {
+  color: #000;
 }
 
 .nav{
@@ -15,6 +19,32 @@ body {
  /*Header image*/
 .header-image img {
   width: 100%;
+}
+
+.hero-heading {
+  position: absolute;
+  top: 110px;
+  left: 65px;
+  width: 344px;
+  background-color: #253b85;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.hero-heading h1 {
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 0.84px;
+  line-height: 55px;
+  text-shadow: 0 1px 4px #152457;
+  margin: 0 auto;
+  color: #fff;
+  /* text-shadow: 0 3px 3px rgba(112, 106, 106, 0.6); */
+}
+
+.hero-heading p {
+  font-size: 18px;
+  color: #fff;
 }
 
 /* Container holding the image and the text */
@@ -38,17 +68,17 @@ body {
 } 
 
 /* Bottom left buttoin on the header image*/
-.btn {
+.cta-btn {
   border: 2px solid black;
   background-color: white;
   color: black;
-  padding: 15px 70px;
+  padding: 25px 90px;
   font-size: 16px;
   cursor: pointer;
   position: absolute;
   top: 200px;
-  left: 450px;
-  margin-left: 40px;
+  left: 50px;
+  margin-left: 20px;
 }
 
 .btn a {
@@ -68,7 +98,7 @@ body {
 /*Card styles*/
 .card-heading {
   text-align:center;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .card-heading h2 {
@@ -80,8 +110,7 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 500px;
   margin: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 30px;
   border-radius: 12px;
 }
 
@@ -96,6 +125,7 @@ body {
 
 .card h2 {
   padding-left: 20px;
+  font-weight: 1000;
 }
 
 .card h3 {
@@ -227,8 +257,6 @@ button:hover, a:hover {
   list-style-type:none;
 }
 
-.footer a {
-}
 
 /*Single Page Styles*/
 
